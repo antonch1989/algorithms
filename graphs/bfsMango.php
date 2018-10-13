@@ -18,6 +18,7 @@ function search(array $contacts) {
         }
 
         if (isMangoSeller($person)) {
+
             return "$person is a closest mango seller";
         }
 
